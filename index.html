@@ -1,0 +1,44 @@
+<title>Las Tuberias</title>
+<h1 id="mostrarPuntaje">0</h1>
+<h1 class="nombre">"LAS TUBERIAS"</h1>
+<h1 class="instruccion">PRESIONA "ENTER" de manera intermitente para pasar las tuberias</h1>
+<h1 class="intro">El juego consciste en cruzar las tuberias sin chocarse, si impactas con una tuberia o chocas con el piso o techo vuelves a empezar automaticamente. El objetivo es que hagas el mayor record de puntos llegando lo mas lejos que puedas. </h1>
+<canvas id="canv" width=800 height=800></canvas>
+
+<script src="funciones.js"></script>
+
+<style>
+    
+    body,#canv {
+        background-color: rgb(211, 255, 128);
+        
+    }
+    #mostrarPuntaje {
+        position: absolute;
+        top: 10px;
+        left:400px;
+        font-size: 60px;
+        color:rgb(118, 84, 211);
+    }
+    .nombre{
+        position: absolute;
+        left: 18em;
+        font-size: 3em;
+        
+        
+    }
+    .instruccion{
+        position: absolute;
+        left: 26em;
+        top: 4em;
+        color:blue;
+        
+    }
+    .intro{
+        position: absolute;
+        top: 7em;
+        left: 26em;
+        
+    }
+    
+</style>
